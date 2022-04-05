@@ -53,7 +53,7 @@ nav a:hover {
   text-shadow: 1px 1px 10px rgb(255, 255, 255);
   height: 350px;
   margin-top: 0;
-  background-image: url(img/Studio_pan_edit.JPG);
+  background-image: url(img/Studio_pan_edit.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 250%;
@@ -127,3 +127,7 @@ iframe {
 }
 
 
+#footer {
+    position: fixed;    
+    bottom: 0;
+    width: 100%;
