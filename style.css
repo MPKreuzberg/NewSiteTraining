@@ -81,7 +81,6 @@ nav a:hover {
   flex-wrap: wrap;
   padding-bottom: 1rem;
   margin-bottom: 2rem;
-  
 }
 .promo {
   display: flex;
@@ -99,7 +98,6 @@ iframe {
   box-shadow: 2px, 2px, 2px rgb(199, 0, 0);
 }
 
-
 .desc {
   padding-top: 1rem;
   width: 400px;
@@ -108,17 +106,14 @@ iframe {
   margin-left: 1rem;
   margin-bottom: 100px;
 }
-.desc h1 {
-  margin: 20px;
-  text-align: center;
+
+li {
+  list-style-type: none;
 }
 .desc0 {
-  margin: 20px;
-  text-align: center;
+  margin: 1rem;
+  text-align: left;
   margin-bottom: 100px;
-}
-.desc0 p {
-  text-align: justify;
   padding: 1rem;
 }
 
@@ -139,7 +134,7 @@ iframe {
 }
 i {
   font-size: 2rem;
-  color: grey;
+  color: rgb(214, 93, 0);
   text-shadow: 2px 2px 6px black;
   padding: 1rem;
 }
@@ -196,7 +191,3 @@ footer {
   bottom: 0;
   width: 100%;
 }
-
-
-
-  
