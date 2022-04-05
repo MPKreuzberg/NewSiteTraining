@@ -12,7 +12,7 @@ body {
   font-family: jura;
   background: linear-gradient(to top, rgb(143, 143, 143), rgb(55, 55, 55));
 }
-/*Header*/
+
 .nav-bar {
   display: flex;
   background-color: black;
@@ -64,7 +64,6 @@ nav a:hover {
   font-size: 3rem;
 }
 .banner p {
-  
   font-size: 1.5rem;
 }
 .promo {
@@ -79,58 +78,92 @@ nav a:hover {
   padding-bottom: 1rem;
 }
 iframe {
-  
   width: 500px;
-  box-shadow: 2px, 2px,2px rgb(199, 0, 0);
+  box-shadow: 2px, 2px, 2px rgb(199, 0, 0);
 }
 
 .desc {
   padding-top: 1rem;
   width: 400px;
-  font-family: jura;
-  font-size: 1rem;
+  font-size: 1, 2rem;
   line-height: 2rem;
   margin-left: 1rem;
   margin-bottom: 100px;
 }
-
-.event {
-    background-color: white;
-    text-transform:uppercase;
-    text-align: center;
-    padding-top: 3rem;
-    padding-bottom: 1rem;
+.desc h1 {
+  margin: 20px;
+  text-align: center;
 }
 
+.studio {
+  background-color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+#rack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: nowrap;
+}
+i {
+  font-size: 2rem;
+  color: grey;
+  text-shadow: 2px 2px 6px black;
+}
 
+.rack {
+  width: 100%;
+  height: auto;
+  background-color: rgb(177, 177, 177);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 5rem;
+}
+.box a {
+  text-decoration: none;
+  color: black;
+}
 
-
-
-
-
-
-
+.box img {
+  margin-top: 30px;
+  border-radius: 5px;
+  width: 200px;
+  height: auto;
+}
+.box h3 {
+  text-align: center;
+  margin-bottom: 0;
+}
+.box p {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-weight: 100;
+}
 
 .contact {
-    background-color: black;
-    color: white;
-    text-align: center;
-    margin-top: 0;
-    padding: 1rem 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  padding: 0.5rem;
 }
 .contact h2 {
-    font-size: 1rem;
-    margin-top: 0;
-    margin-bottom: 3px;
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 3px;
 }
 
 .contact h5 {
-    margin: 3px;
+  margin: 3px;
 }
 
-
-#footer {
-    position: fixed;    
-    bottom: 0;
-    width: 100%;
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
