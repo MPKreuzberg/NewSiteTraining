@@ -96,7 +96,7 @@ nav a:hover {
   padding-bottom: 1rem;
 }
 iframe {
-  width: 500px;
+  width: 40%;
   box-shadow: 2px, 2px, 2px rgb(199, 0, 0);
 }
 
@@ -194,7 +194,35 @@ i {
 }
 
 footer {
-  
+  position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+
+@media only screen and (max-width: 500px){
+    
+  li a {
+      display:none
+  }
+  .nav-bar {
+      height: 80px;
+  }
+  .hamburger {
+      display: block;
+      position: absolute;
+      top: 30px;
+      right: 40px;
+      width: 33px;
+  }
+  .hamburger a span {
+      display: block;
+      width: 33px;
+      height: 2px;
+      margin-bottom: 10px;
+      position: relative;
+      background: white;
+      border-radius: 3px;
+      z-index: 1;
+  }
 }
