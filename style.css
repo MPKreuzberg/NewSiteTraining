@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  margin: auto;
+  font-family: jura;
+  background: linear-gradient(to top, rgb(143, 143, 143), rgb(55, 55, 55));
+}
+/*Header*/
+.nav-bar {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0;
+}
+.logo {
+  height: 80px;
+  padding-left: 2rem;
+}
+nav ul {
+  display: flex;
+  padding-right: 2rem;
+  flex-wrap: wrap;
+}
+nav ul li {
+  display: flex;
+}
+nav a {
+  padding: 0 10px 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  font-weight: 700;
+}
+nav a:hover {
+  color: rgb(209, 0, 0);
+  cursor: pointer;
+  text-shadow: 2px 2px 10px white;
+  transition-duration: 1s;
+}
+.banner {
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  text-shadow: 1px 1px 10px rgb(255, 255, 255);
+  height: 350px;
+  margin-top: 0;
+  background-image: url(img/Studio_pan_edit.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 250%;
+}
+.banner h1 {
+  margin-top: 0;
+  padding-top: 6rem;
+  font-size: 3rem;
+}
+.banner p {
+  
+  font-size: 1.5rem;
+}
+.promo {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: grey;
+  margin-top: 0;
+  padding-top: 1.5rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+}
+iframe {
+  
+  width: 500px;
+  box-shadow: 2px, 2px,2px rgb(199, 0, 0);
+}
+
+.desc {
+  padding-top: 1rem;
+  width: 400px;
+  font-family: jura;
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-left: 1rem;
+}
+
+.event {
+    background-color: white;
+    text-transform:uppercase;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+.contact {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding: 1rem 0;
+}
+.contact h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.contact h5 {
+    margin: 10px;
+}
+
+
+@media only screen and (max-width: 500px){
+    
+    li a {
+        display:none
+    }
+    .nav-bar {
+        height: 80px;
+    }
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 40px;
+        width: 33px;
+    }
+    .hamburger a span {
+        display: block;
+        width: 33px;
+        height: 2px;
+        margin-bottom: 10px;
+        position: relative;
+        background: white;
+        border-radius: 3px;
+        z-index: 1;
+    }
+}
