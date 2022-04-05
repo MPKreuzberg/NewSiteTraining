@@ -172,11 +172,14 @@ i {
 }
 
 .contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: black;
   color: white;
   text-align: center;
   margin-top: 0px;
-  padding: 0.5rem;
+  padding: 0.2rem;
 }
 .contact h2 {
   font-size: 1rem;
@@ -193,11 +196,17 @@ i {
   justify-content: center;
 }
 
+.env {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
 }
+
 
 
 @media only screen and (max-width: 500px){
