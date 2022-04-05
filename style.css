@@ -91,6 +91,7 @@ iframe {
   font-size: 1rem;
   line-height: 2rem;
   margin-left: 1rem;
+  margin-bottom: 100px;
 }
 
 .event {
@@ -118,12 +119,13 @@ iframe {
     padding: 1rem 0;
 }
 .contact h2 {
+    font-size: 1rem;
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
 }
 
 .contact h5 {
-    margin: 10px;
+    margin: 3px;
 }
 
 
