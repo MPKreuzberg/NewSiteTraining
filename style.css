@@ -185,6 +185,11 @@ i {
 .contact h5 {
   margin: 3px;
 }
+.phone {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
 
 footer {
   position: fixed;
