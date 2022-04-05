@@ -127,29 +127,3 @@ iframe {
 }
 
 
-@media only screen and (max-width: 500px){
-    
-    li a {
-        display:none
-    }
-    .nav-bar {
-        height: 80px;
-    }
-    .hamburger {
-        display: block;
-        position: absolute;
-        top: 30px;
-        right: 40px;
-        width: 33px;
-    }
-    .hamburger a span {
-        display: block;
-        width: 33px;
-        height: 2px;
-        margin-bottom: 10px;
-        position: relative;
-        background: white;
-        border-radius: 3px;
-        z-index: 1;
-    }
-}
