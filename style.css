@@ -188,13 +188,9 @@ i {
   margin-top: 0;
   margin-bottom: 3px;
 }
-
-
-/* .phone {
-  display:flex;
-  align-items: center;
-  justify-content: center;
-} */
+.contact i {
+  color: white;
+}
 
 .env {
   font-size: 1.5rem;
